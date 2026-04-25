@@ -38,6 +38,8 @@
 
 - `2_huase_augment`：花色任务的主要代码
 - `SNN`：包含模型权重和量化后的权重
+- `PAIBOX_new`：PAIBox工具库，用于模型编译和优化
+- `paiboard_new`：板级测试相关代码
 - `bianyi.ipynb`：包含项目的主要代码和测试结果
 - `qat_layer.py`：量化层的实现
 - `requirements.txt`：环境依赖

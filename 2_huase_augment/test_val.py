@@ -23,7 +23,7 @@ IMG_SIZE = (48, 48)
 DATA_ROOT = "/Users/bytedance/Desktop/Davis/suit_dataset"  # 你的数据集根目录
 VALID_CLASSES = ['fangpian', 'heitao', 'hongtao', 'meihua']  # 4个有效类别
 EMPTY_CLASS_ID = 4  # empty类的标签ID
-MODEL_WEIGHT_PATH = "conv+fc_5_class_best.pth"  # 训练好的最佳模型权重
+MODEL_WEIGHT_PATH = "../SNN/conv+fc_5_class_best.pth"  # 训练好的最佳模型权重
 DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 # -------------------------- 预处理（仅保留测试集，和训练脚本一致） --------------------------
