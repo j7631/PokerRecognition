@@ -5,9 +5,13 @@
 以"花色"任务为例，路径在 `2_huase_augment` 里
 
 简略版运行流程：（按顺序依次运行）
+
 /suit_project/huase_recognition/main.py
+
 /suit_project/huase_recognition/quantize.py
+
 /suit_project/PAIBOX_new/bianyi.py
+
 /suit_project/PAIBoard/board_huase_dianshu_realtime.py
 
 
